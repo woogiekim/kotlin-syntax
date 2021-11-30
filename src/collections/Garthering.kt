@@ -114,9 +114,9 @@ fun main() {
     println()
 
     //minOrNull, maxOrNull
-    println("Numbers: $numbers, min = ${numbers.min()} max = ${numbers.max()}")
-    println("Empty: $empty, min = ${empty.min()}, max = ${empty.max()}")
-    println("Only: $only, min = ${only.min()}, max = ${only.max()}")
+    println("Numbers: $numbers, min = ${numbers.minOrNull()} max = ${numbers.maxOrNull()}")
+    println("Empty: $empty, min = ${empty.minOrNull()}, max = ${empty.maxOrNull()}")
+    println("Only: $only, min = ${only.minOrNull()}, max = ${only.maxOrNull()}")
     println()
 
     //sorted

@@ -1,7 +1,7 @@
 package scopefunctions
 
 fun customPrint(s: String) {
-    print(s.toUpperCase())
+    print(s.uppercase())
 }
 
 fun main() {
